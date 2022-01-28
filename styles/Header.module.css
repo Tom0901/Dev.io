@@ -1,0 +1,47 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 800px;
+  padding: 1.5rem;
+  margin: 1rem 1rem 0rem 1rem;
+}
+
+.btnContainer {
+  align-self: flex-start;
+  width: 75%;
+}
+
+.btn {
+  background-color: #0070f3;
+  cursor: pointer;
+  border: none;
+  border-radius: 1.5px;
+  font-family: inherit;
+  padding: 0.5rem;
+  color: white;
+  font-weight: 900;
+}
+
+.btn:hover {
+  color: #0070f3;
+  background-color: white;
+  transition: 1s;
+}
+
+.lnk {
+  align-self: flex-end;
+  color: #0070f3;
+  font-weight: 500;
+}
+
+.lnk:hover {
+  color: inherit;
+}
+
+@media (max-width: 600px) {
+  .btnContainer {
+    align-self: flex-start;
+    width: 50%;
+  }
+}
